@@ -1,0 +1,32 @@
+#main{
+    color:yellow;
+}
+
+.sub{
+    border: 2px;
+    border-width: 2px;
+    border-color: blue;
+
+}
+
+li, p{
+    color:brown;
+}
+
+h1 + p + p{
+    background-color: violet;
+
+}
+
+li:nth-child(even) {
+    font-weight : bold;
+}
+
+#target{
+    border-color: blueviolet;
+    border-style: double;
+    color: crimson;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
