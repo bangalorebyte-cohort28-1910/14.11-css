@@ -1,5 +1,3 @@
-# 14.11-css
-
 # Introduction to CSS 
 
 ### Learning Material
