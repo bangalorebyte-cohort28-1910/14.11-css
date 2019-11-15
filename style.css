@@ -6,7 +6,7 @@
     border: 2px;
     border-width: 2px;
     border-color: blue;
-
+    color:blue !important;
 }
 
 li, p{
@@ -25,8 +25,42 @@ li:nth-child(even) {
 #target{
     border-color: blueviolet;
     border-style: double;
-    color: crimson;
+    color: crimson !important;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
+
+body :not(h1) {
+    text-align: right;
+}
+
+button {
+    color: white;
+    background-color: black;
+    position:static;
+    top:20px;
+}
+
+button:hover{
+    background-color: chartreuse;
+}
+
+@media (orientation: landscape) {
+    * {background-color: yellow;}
+}
+
+.wrapper{
+    display: grid;
+}
+
+.one{
+    grid-column:1;
+}
+
+.two{
+    grid-column:2;
+}
+ .three{
+     grid-column:3
+ }
 
